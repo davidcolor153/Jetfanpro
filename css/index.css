@@ -1,0 +1,24 @@
+/* 全域設定 */
+*{
+    position: relative;
+    font-family: 微軟正黑體;
+    box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+
+
+
+/* 響應式-平板 */
+@media screen and (max-width: 968) {
+  .container {
+     max-width: 100%;
+  }
+}

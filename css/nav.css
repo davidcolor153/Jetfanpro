@@ -1,0 +1,104 @@
+
+/* navbar */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+nav {
+    background-color: #424246;
+    min-height: 44px;
+    color: white;
+}
+nav a{
+    color:white;
+    height: 100px;
+}
+nav .brand {
+    display: inline-block;
+    /* padding: 10px 0; */
+    line-height: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color .3s;
+}
+nav .brand:hover, nav .brand:focus {
+    color: skyblue;
+}
+nav h1{
+    margin-bottom: 0px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+nav h2{
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 3px;
+    opacity: .6;
+}
+nav .navbar-menu {
+    float: right;
+    margin: 0px;
+}
+nav .navbar-menu > li {
+    display: inline-block;
+}
+nav .navbar-menu > li > a {
+    display: block;
+    padding: 10px 5px;
+    line-height: 24px;
+    text-decoration: none;
+    transition: color .3s;
+}
+nav .navbar-menu > li > a:hover{
+    color: skyblue;
+} 
+nav .navbar-menu > li > a:focus {
+    color: skyblue;
+}
+nav .button-toggle {
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    float: right;
+    display: none;
+    padding: auto auto;
+    /* margin: 5px 0; */
+    line-height: 40px;
+    text-decoration: none;
+    transition: color .3s;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+@media screen and (max-width: 968px) {
+    nav .navbar-menu {
+        float: none;
+        display: none;
+    }
+    nav .navbar-menu.active {
+        display: block;
+    }
+    nav .navbar-menu > li {
+        display: block;
+    }
+    nav .button-toggle {
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 600px) {
+    nav .brand{
+        width: 100%;
+    }
+    nav .button-toggle{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        float: none;
+    }
+}
+  
