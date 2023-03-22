@@ -25,6 +25,7 @@ nav .navbar{
     height: 100px;
 }
 nav .logo{
+    vertical-align: top;
     width: 50px;
     height: 50px;
 	top: 50%;
@@ -45,6 +46,7 @@ nav li a{
 	transform: translateY(-50%);
 }
 nav .brand {
+    vertical-align: top;
     display: inline-block;
     line-height: 24px;
     font-weight: bold;
