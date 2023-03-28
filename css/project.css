@@ -1,0 +1,42 @@
+.project .swiper {
+    width: 100%;
+    height: 300px;
+}
+.project .swiper img{
+    width: 100%;
+    height: 90%;
+}
+.project .swiper .swiper-scrollbar{
+    background-color: #fff;
+}
+.project  .swiper-button-next{
+    color: white;
+}
+.project  .swiper-button-prev{
+    color: white;
+}
+.project .swiper-pagination-bullet-active{
+    background-color: black;
+}
+.project .container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.project hr{
+    margin-top: 5%;
+    margin-bottom: 5%;    
+}
+.project h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    margin-bottom: 7%;  
+}
+.project h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 4px;  
+    margin-bottom: 7%;  
+}

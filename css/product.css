@@ -1,0 +1,21 @@
+.product .product_blocks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.product h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-top: 7%;  
+}
+.product p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2.5px;  
+    margin-bottom: 7%;  
+}
+.product .container{
+    margin-bottom: 10%;
+}
