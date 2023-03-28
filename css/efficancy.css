@@ -1,0 +1,107 @@
+.efficancy h1{
+    background-color: rgb(36,41,46);
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.1em;
+    letter-spacing: 7px;
+    padding: 10px;
+    margin: 5% 0;
+}
+.efficancy h2{
+    color: rgb(36,41,46);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: 4px;
+}
+.efficancy p{
+    color: rgb(36,41,46);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 3px;
+    margin: 2.5% 0;
+    margin-bottom: 6%;
+}
+.efficancy .e1{
+    width: 100%;
+}
+.efficancy hr{
+    margin: 5% 0;
+}
+.efficancy ol{
+    color: rgb(36,41,46);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 3px;
+    margin: 2.5% 0;
+    margin-bottom: 6%;
+}
+.efficancy .sys_img_blocks{    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    column-gap: 2.5%;
+}
+.efficancy .block img{    
+    width: 100%;
+}
+.efficancy .block{    
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.5);
+    padding: 20px;
+    margin-bottom: 5%;
+}
+.efficancy .block h2{    
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+.efficancy .block h3{   
+    text-align: center;
+    color: rgb(51,204,204);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.efficancy .block p{  
+    color: rgb(36,41,46); 
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+/* 響應式-手機 */
+@media screen and (max-width: 600px) {
+    .efficancy h1{
+        font-size: 38px;
+        font-weight: 600;
+        letter-spacing: 4px;
+        margin-top: 10%;
+    }
+    .efficancy h2{
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    .efficancy p{
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 28px;
+    }
+    .efficancy ol{
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 28px;
+    }
+    .efficancy .sys_img_blocks{    
+        grid-template-columns: 1fr;
+    }
+    .efficancy .container{    
+        margin-bottom: 25%;
+    }
+}

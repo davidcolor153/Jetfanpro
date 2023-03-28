@@ -1,0 +1,23 @@
+.patent .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 10%;
+}
+.patent h1{
+    text-align: center;
+    grid-column: 1/5;
+}
+
+/* 響應式-平板 */
+@media screen and (max-width: 968px) {
+    .patent .container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* 響應式-手機 */
+@media screen and (max-width: 600px) {
+    .patent .container{
+        grid-template-columns: 1fr;
+    }
+}

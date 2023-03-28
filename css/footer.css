@@ -1,0 +1,58 @@
+footer{
+    color: #6ec1e4;
+    font-family: Poppins;
+    background-color: #24292E;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+footer h1{
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+footer p{
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+footer .contact{
+    display: grid;
+    grid-template-columns: 400px 1fr 220px; 
+}
+footer .contact .right{
+    text-align: center;
+}
+footer .information{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 1em;
+}
+footer .hr{
+    border: solid 1px #6ec1e4;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* 響應式-footer版面 */
+@media screen and (max-width: 900px) {    
+    footer .contact{
+        text-align: center;
+        grid-template-columns: 1fr; 
+    }
+    footer .information{
+        text-align: center;
+        grid-template-columns: 1fr; 
+    }
+}
+
+/* 響應式-手機 */
+@media screen and (max-width: 600px) {
+    footer h1{
+        font-size: 20px;
+        line-height: 1em;
+        letter-spacing: 2px;
+    }
+    footer p{
+        font-size: 14px;
+        line-height: 28px;
+        letter-spacing: 1px;
+    }
+}
